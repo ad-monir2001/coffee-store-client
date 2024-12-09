@@ -1,7 +1,7 @@
-import { useLoaderData } from 'react-router-dom';
-import Navbar from '../components/Navbar';
 import { useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import Navbar from '../components/Navbar';
 
 const Users = () => {
   const loadedUsers = useLoaderData();

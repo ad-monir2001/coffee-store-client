@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
-import Navbar from '../components/Navbar';
 import { AuthContext } from '../AuthProvider/AuthProvider';
+import Navbar from '../components/Navbar';
 
 const SignUp = () => {
   const { createUser, setUser } = useContext(AuthContext);
@@ -22,7 +22,9 @@ const SignUp = () => {
         const newUser = {
           name, email , createdTime
         }
-        // save new user info to the database
+
+        
+        // save new user info to the database with fetch
         fetch('http://localhost:5000/users', {
           method: 'POST',
           headers: {

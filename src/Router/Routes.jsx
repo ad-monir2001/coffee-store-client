@@ -1,9 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../App';
 import AddCoffee from '../pages/AddCoffee';
-import UpdateCoffee from '../pages/Updatecoffee';
 import Error from '../pages/Error';
 import SignUp from '../pages/SignUp';
+import UpdateCoffee from '../pages/Updatecoffee';
 import Users from '../pages/Users';
 
 const router = createBrowserRouter([

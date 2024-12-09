@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 import Navbar from '../components/Navbar';
 const AddCoffee = () => {
   const handleForm = (event) => {
